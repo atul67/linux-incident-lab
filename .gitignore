@@ -1,0 +1,8 @@
+# Runtime logs, archives, locks and state
+logs/
+
+# Temporary backups and editor files
+*.bak
+*.backup.html
+*.swp
+*~
