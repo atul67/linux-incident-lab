@@ -1,0 +1,17 @@
+{
+  "id": "INC-20261009-175806-90c2b2",
+  "service": "Linux Employee Portal Lab",
+  "status": "RESOLVED",
+  "detected_at": "2026-10-09T17:58:06.847018+00:00",
+  "last_observed_at": "2026-10-09T17:58:06.847018+00:00",
+  "initial_failures": [
+    "Nginx is not active",
+    "Could not reach the homepage",
+    "Portal health endpoint request failed"
+  ],
+  "current_failures": [],
+  "root_cause": "Not determined",
+  "priority": "Pending impact assessment",
+  "recovery_detected_at": "2026-10-09T17:58:07.106925+00:00",
+  "detected_resolution_seconds": 0
+}

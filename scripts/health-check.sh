@@ -119,4 +119,10 @@ printf '%s\n' "$current_state" > "$state_file"
 echo
 echo "Overall health: $current_state"
 
+# Update the incident record after completing health checks.
+if ! python3 "$project_dir/scripts/incident-tracker.py" "$current_state" "${failures[@]}"; then
+    echo "ERROR: Incident tracker failed"
+    result=1
+fi
+
 exit "$result"
